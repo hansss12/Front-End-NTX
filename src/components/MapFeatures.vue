@@ -4,7 +4,7 @@
   >
     <!-- User Location -->
     <div
-      class="px-4 bg-white flex items-center shadow-md rounded-md min-h-[45px]"
+      class="px-4 bg-white flex items-center shadow-md rounded-md min-h-[45px] cursor-pointer"
       @click="$emit('getGeolocation')"
       :class="{ 'bg-slate-600': coords }"
     >
@@ -16,7 +16,7 @@
 
     <!-- attack location -->
     <div
-      class="px-4 bg-white flex items-center shadow-md rounded-md min-h-[45px]"
+      class="px-4 bg-white flex items-center shadow-md rounded-md min-h-[45px] cursor-pointer"
       @click="$emit('getAttacklocation')"
       :class="{ 'bg-slate-600': attackCoords }"
     >
