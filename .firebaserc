@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "ntx-client",
+    "test": "ntx-client"
+  },
+  "targets": {},
+  "etags": {}
+}

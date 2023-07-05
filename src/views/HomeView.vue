@@ -221,7 +221,7 @@ export default {
       fetchAttackCoords.value = null;
 
       // fetch coords with axios
-      const { data } = await axios.get("http://localhost:3000/")
+      const { data } = await axios.get("https://ntx-server-test-production.up.railway.app/")
 
       // set ref attackCoords value
       attackCoords.value = data;
